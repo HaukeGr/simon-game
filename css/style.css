@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body {
+  text-align: center;
+  margin: 50px;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.disable-clicks {
+  pointer-events: none;
+}
+
+.simon-game-div {
+    background-color: #fff0c1;
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+    border: 3px solid #3a3a3a;
+    border-radius: 15px;
+    box-shadow: 0px 13px 18px #212121
+}
+
+.command-line {
+  margin: 0 auto 10px;
+  font-family: "VT323";
+  font-size: 1.75em;
+  text-align: center;
+  width: 200px;
+  height: 1.75em;
+  color: #ff3535;
+  background-color: #3a0202;
+  border: 2px solid grey;
+  border-radius: 7.5px;
+}
+
+.text {
+  display: none;
+}
+
+.command-visible {
+  transition: all ease 0.5s;
+}
+
+.buttons-circle {
+  border: 6px solid #3a3a3a;
+  background-color: #3a3a3a;
+  margin: auto;
+  display: block;
+  padding: 0;
+  width: 305px;
+  height: 305px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.quarter-btn {
+  filter: brightness(100%);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 144px;
+  height: 144px;
+}
+
+.quarter-btn:hover {
+  cursor: pointer;
+}
+
+
+.quarter-btn:active, .active {
+  filter: brightness(50%);
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.score-counter {
+  margin: 10px auto 0px;
+  border: 2px solid grey;
+  border-radius: 7.5px;
+  width: 50px;
+  font-size: 1.5em;
+  font-family: "VT323";
+  color: #ff3535;
+  background-color: #3a0202;
+}
+
+.counter-text {
+  font-family: "Oswald";
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.btn {
+  margin: 2.5px;
+  width: 60px;
+  cursor: pointer;
+  box-shadow : 0px 2px 3px #212121;
+  border: 2px solid grey;
+  border-radius: 7.5px;
+  font-size: 0.8em;
+  font-family: "Oswald";
+}
+
+.btn:active{
+  box-shadow : 0 1px 1px #212121;
+}
+
+.start-game {
+  background-color: #10a000;
+  color: white;
+}
+
+.strict-wrap {
+  display: inline-block;
+}
+
+.strict-btn {
+  background-color: #fffa00;
+  color: #3a3a3a;
+}
+
+.strict-led {
+  background-color: #3a0202;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+.led-active {
+  background-color: #ff3535;
+}
